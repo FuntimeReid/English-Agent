@@ -181,7 +181,7 @@ def format_report_node(state: Phase1State) -> dict:
     # ---------- 学生报告 ----------
     lines = []
     lines.append("=" * 60)
-    lines.append("          英语写作评分与诊断报告")
+    lines.append("英语写作评分与诊断报告".center(60))
     lines.append("=" * 60)
 
     lines.append("\n【总体评分】")
